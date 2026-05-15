@@ -16,6 +16,18 @@ type PokemonSpeciesResponse = {
   flavor_text_entries: FlavorTextEntry[];
 };
 
+type PokemonTypeSlot = {
+  type: { name: string };
+};
+
+type PokemonResponse = {
+  id: number;
+  name: string;
+  types: PokemonTypeSlot[];
+  height: number;
+  weight: number;
+};
+
 function formatName(name: string) {
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
@@ -60,7 +72,7 @@ export default async function PokemonPage({ params }: PageProps) {
     notFound();
   }
 
-  const pokemon = (await pokemonRes.json()) as { id: number; name: string };
+  const pokemon = (await pokemonRes.json()) as PokemonResponse;
   const species = (await speciesRes.json()) as PokemonSpeciesResponse;
 
   const name = formatName(pokemon.name);
