@@ -1,0 +1,9 @@
+.Layout{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    /*background-color: #ff0; */
+}

@@ -1,0 +1,23 @@
+.divAbout{
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  margin: 0 auto;
+}
+
+.divAbout h1{
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+.divAbout img{
+  width: 600px;
+  height: 400px;
+  margin-bottom: 1.5em;
+}
+
+.divAbout p{
+  font-family:Verdana, Geneva, sans-serif;
+  color: #333;
+  margin-bottom: 1.5em;
+  max-width: 800px;
+}

@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+    background-color: #262626;
+    color: #fff;
+}
+
+.divLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+    /*background-color: #f00;*/
+}
+
+.divLogo img{
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px;
+}
+
+.divLogo span{
+    font-size: 12px;
+    color: #fff;
+}
+
+ul.ulNavbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.ulNavbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 10px;
+}
+
+ul.ulNavbar li a:hover{
+    color: #777;
+    transition: color 0.3s ease;
+}
