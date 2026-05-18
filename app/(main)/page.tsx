@@ -25,7 +25,7 @@ function idFromPokemonUrl(url: string): number {
 }
 
 export default async function Home() {
-  const limit = 50;
+  const limit = 20;
   const res = await fetch(
     `https://pokeapi.co/api/v2/pokemon?limit=${limit}`,
     { next: { revalidate: 3600 } }

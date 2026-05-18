@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 91vh;
+  padding: 2rem 1.25rem;
+  text-align: center;
+}
+
+.code {
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #e33d33;
+  margin-bottom: 0.25em;
+}
+
+.title {
+  font-size: 2rem;
+  color: #262626;
+  margin-bottom: 0.75em;
+}
+
+.titleAccent {
+  color: #e33d33;
+}
+
+.description {
+  max-width: 420px;
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: #e33d33;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #c9342b;
+}
